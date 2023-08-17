@@ -10,26 +10,26 @@ The data and pretrained model can download by Baidu Netdisk, the data includes p
 link：https://pan.baidu.com/s/1WyQNxiRXbwDVKJkTcWUluQ <br>
 password：y3yi <br>
 # Instructions
-· hedge_model file: train the hedge sentence prediction model.<br>
-- data_process.py: process input data.<br>
-- load_data.py：load the training data.<br>
-- main.py：train the model.<br>
-- model.py：model structure.<br>
-- predict.py：predict test data.<br>
-- util.py：data process tool.<br>
+- hedge_model file: train the hedge sentence prediction model.<br>
+-- data_process.py: process input data.<br>
+-- load_data.py：load the training data.<br>
+-- main.py：train the model.<br>
+-- model.py：model structure.<br>
+-- predict.py：predict test data.<br>
+-- util.py：data process tool.<br>
 run the main.py can train a hedge sentence prediction model.<br>
 run the predict.py can predict the result of test data.<br>
-· tagger: Aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor).<br>
+- tagger: Aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor).<br>
 
-· (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
+- (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
 
-· conf(1-5)_hedge)word.json: hedge word count for review report.<br>
+- conf(1-5)_hedge)word.json: hedge word count for review report.<br>
 
-· new_hedge_word.text: hedge word list.
+- new_hedge_word.text: hedge word list.
 
-· regression_analysis.py: regression model. <br>
+- regression_analysis.py: regression model. <br>
 
-· review_count.py: count peer review content<br>
+- review_count.py: count peer review content<br>
 sent_asp.xlsx and text_asp.xlsx: data of regression analysis.
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
