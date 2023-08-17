@@ -1,0 +1,401 @@
+{
+    "raw sentence:": "update  thank you for the rebuttal .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+        "raw sentence:": " the authors propose techniques for multitask and few shot learning , where the number of tasks is potentially very large , and the different tasks might have different output spaces .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "therefore i recommend reject .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "4 . it seems odd to put absolute errors on task j instead of regret to the model trained on j in the similarity matrix .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "3 . i do not see how you apply the model from task i to task j when the two have different output spaces .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "contribution   this paper proposes a new object counting module which operates on a graph of object proposals .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the rebuttal is convincing and i decided to increase my rating , because adding the proposed counting module achieve 5 % increase in counting accuracy .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "it is possible that this model does not do well , but there is an equally good model for i which also does well on j .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "however , a disadvantage of the proposed method is that it is a two step approach  first perform task clustering , then re learn the cluster weights  , while  5  is not .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "if the tasks in a cluster have different output spaces , then a separate output layer is learned for each task in the cluster following a common encoding module .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "a dirty model for multi task learning  nips   3 ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "i dont know whether the low rank structure does exist in the cross task transfer performance or not .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "i do not see why theres need for a proof for the matrix completion result .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "if the error rates are different for different tasks , it is not sensible to measure raw accuracies .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "appendix a seems obvious but it cannot prove the validity of the assumption made in problem  2  .",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": " li , y . , tarlow , d . , brockschmidt , m . , zemel , r . gated graph sequence neural networks .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " one major bottleneck of the model is that the proposals are not jointly finetuned .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "given such a matrix , they propose to do multitask learning by clustering the similarity matrix , and learning a single model for each cluster .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the paper is revised and i saw nms baseline is added .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "this appears to be a direct application of chandrasekaran et al , and in fact matrix completion has been used for clustering before  httpsarxiv.orgabs1104.4803  .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "without good reasoning from the authors , i see no reason why the entries in the row of a matrix should have a normal like distribution .",
+    "correct label:": 0,
+    "predict:": 1
+}{
+    "raw sentence:": "i would recommend the authors to use something more general , like graph convolutional neural networks  kipf  welling , 2017  or graph gated neural networks  li et al . , 2016  .",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": "2 . the pairwise similarity measure appears to be one that might have a high false negative rate .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "the proposed algorithm then uses these performance values to perform task clustering .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the authors suggest computing a similarity matrix amongst the tasks .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "for example , in binary classification tasks , a very small s  ij  indicates that by changing the sign of the classification function these two tasks are useful to each other .",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": " the proposed method improves the baseline by 5 % on counting questions .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " the idea of using cross task transfer performance to do task clustering is not new .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " as mentioned above , the proposed method can be computationally expensive  when used for mtl  , but no timing results are reported .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "clarity   the paper is well written and clarity is good .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "references   kipf , t.n . , welling , m . , semi supervised classification with graph convolutional networks .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " the proposed algorithm doesnt handle symmetry breaking when two edges are equally confident  in 4.2.2 it basically scales down both edges  .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "i also think that the authors might benefit from dropping the whole few shot learning angle here , and instead do a more thorough job of evaluating their multitask learning method . ",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "please refer to the paper discovering structure in multiple learning tasks  the tc algorithm published in icml 1996 .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "clustered multi task learning  a convex formulation  nips   4 ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "furthermore , in the matrix completion scenario , you have o  log2n  entries per row on average , which means with high probability few rows should have a constant number of entries .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " the paper doesnt compare experiment numbers with  chattopadhyay et al . , 2017  .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "but i believe there are important drawbacks in the framing and basic methodology and evaluation which make the paper unfit for publication in its current form .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "based on previous works such as multi task sparse structure learning with gaussian copula models and learning sparse task relations in multi task learning , when the number of tasks is large , the task relation exhibits the sparse structure .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "in this paper , on the other hand , the clusters are obtained in a manner which only accounts for pairwise similarities of tasks , using a pairwise similarity metric which is quite different from how the cluster is eventually used .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "such a model would indeed be found if i and j are put in the same cluster , but the method would fail to do so , leading to high fragmentation .",
+    "correct label:": 0,
+    "predict:": 1
+}{
+    "raw sentence:": "since this is a major motivation of the paper , i actually do not see how the setup makes sense ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the matrix completion approach is based on robust pca .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "6 . in the evaluation , why are just 12 tasks used in the amazon dataset ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the paper didnt study what is the recall of the proposals and how sensitive the threshold is .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " the authors propose techniques for multitask and few shot learning , where the number of tasks is potentially very large , and the different tasks might have different output spaces .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "this can be computationally demanding .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "why dont you present evaluation results on all tasks in the multitask setting ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "this is because you train individual model on i and apply it to j .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " the paper doesnt study a simple baseline that just does nms on the proposal domain .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "7 . why is average accuracy the right thing ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "pros   de duplication modules of inter and intra object edges are interesting .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "however , i am a little worried that the proposed model may be hard to reproduce due to its complexity and therefore choose to give a 6 . ",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": "i understood the reason not to compare with certain related work .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "experimental results are not convincing .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " as the authors mentioned in section 4.2 , most of the tasks have a significant amount of training data  and single task baselines achieve good results  , and so this is not a good benchmark dataset for mtl . ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the key assumption in the paper is that task classifier i that performs well on task j means tasks i and j belong to the same cluster , and if task classifier i does not perform well on task j , then tasks i and j belong to different cluster .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the resulting algorithm is evaluated on a standard amazon reviews benchmark from multitask learning , as well as two datasets from intent classification in dialog systems .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "integrating low rank and group sparse structures for robust multi task learning  kdd   6 ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "1 . the prior works which do task clustering and multitask learning typically focus on how one might induce clusters which work well with the multitask learning methods used  see e.g . kang et al . which is cited , as well as kshirsagar et al . in ecml 2017 as two examples  .",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": "convex multitask learning with flexible task clusters  icml   5 ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "learning incoherent sparse and low rank patterns from multiple tasks  kdd  in particular ,  5  assumes that the combined weight matrix  for all the tasks  follows the robust pca model .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the two parts in this paper are not new .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " comparison with existing clustered mtl methods mentioned above are missing .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "this is thus very similar to the proposed method  which assumes that the performance matrix follows the robust pca model  .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "cons   the proposed model is pretty hand crafted .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "at the very least , i would consider using regret to the model of the task , and compute some quantiles on that which is still suspect in the matrix completion setting .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "when used for multitask learning  mtl  with n tasks , the method has to first train one classifier for each task  and so train a total of n classifiers  , and then evaluate the performance of each classifier on each and every task  and so involves n2 testing rounds  .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the authors also seem to miss a potentially relevant baseline in cross stitch networks  httpsarxiv.orgabs1604.03539  besides these major issues , there are also a few minor issues i have with the paper .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "in short , if the proposals dont have 100 % recall , then the model is then trained with a biased loss function which asks it to count all the objects even if some are already missing from the proposals .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "also , key experiments are missing  1  nms baseline 2  comparison with vqa counting work  chattopadhyay et al . , 2017  .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "so the use of cross task transfer performance and the task clustering approach can only capture positive correlations between tasks but ignore the negative task relations which are also important to the sharing among tasks in multi task learning .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the combination of the two parts seems a bit incremental and does not bring much novelty . ",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "to deal with the large number of tasks , the authors further propose computing a few randomly sampled entries of the similarity matrix , and then using ideas from robust matrix completion to induce the full matrix .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "so if the proposals are missing a single object , this cannot really be counted .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "prior techniques which can address some of these aspects do not necessarily work with deep learning , which is a key focus of the paper .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "5 . the inducing of edges in the y matrix by comparing to a mean and standard deviation is completely baseless .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "this seems quite suboptimal .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "iclr 2017 .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " this paper proposes a method for multitask and few shot learning by completing a performance matrix  which measures how well the classifier for task i performs on task j  .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "given this , the presentation in the paper makes the idea look more novel than it is .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "for few shot learning , the authors mentioned that the alphas are adaptable parameters but did not mention how they are adapted .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " compared to  zhou et al . , 2017  , the proposed model does not improve much on the counting questions .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "this is similar to a density map approach and the problem is that the model doesnt develop a notion of instance .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "in this case , the means are standard deviations do not even make sense to me .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " summary   this paper proposes a hand designed network architecture on a graph of object proposals to perform soft non maximum suppression to get object count .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "iclr 2016 .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "the authors also seem to miss a potentially relevant baseline in cross stitch networks  httpsarxiv.orgabs1604.03539  besides these major issues , there are also a few minor issues i have with the paper .",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": "i also think that the authors might benefit from dropping the whole few shot learning angle here , and instead do a more thorough job of evaluating their multitask learning method . ",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "problem  2  is identical to robust pca and theorem 3.1 is common in matrix completion literature .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "i dont see much novelty .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": " since the authors have mentioned in the related work , it would also be more convincing if they show experimental results on cl conclusion   i feel that the motivation is good , but the proposed model is too hand crafted .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "i think there are some interesting ideas in this paper , and the use of matrix completion techniques to deal with a large number of tasks is nice .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "one issue of the use of cross task transfer performance to measure task relations is that it ignores the negative correlations between tasks , which is useful for learning from multiple tasks .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "2 . the pairwise similarity measure appears to be one that might have a high false negative rate .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "however , in mtl , we usually assume that there are not enough samples to learn each task , and so this performance matrix may not be reliable .",
+    "correct label:": 1,
+    "predict:": 1
+}{
+    "raw sentence:": "that is , it might rate many tasks as dissimilar even when they are not .",
+    "correct label:": 1,
+    "predict:": 0
+}{
+    "raw sentence:": "for example ,  1  a convex formulation for learning task relationships in multi task learning  uai   2 ",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "figure 2  3 helps the readers understand the core algorithm .",
+    "correct label:": 0,
+    "predict:": 0
+}{
+    "raw sentence:": "there have been a number of mtl methods based on task clustering .",
+    "correct label:": 0,
+    "predict:": 0
+}
