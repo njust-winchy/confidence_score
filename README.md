@@ -19,7 +19,7 @@ password：y3yi <br>
 -- util.py：data process tool.<br>
 run the main.py can train a hedge sentence prediction model.<br>
 run the predict.py can predict the result of test data.<br>
-- tagger: Aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor).<br>
+- tagger: Aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
 - (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
 
@@ -30,6 +30,7 @@ run the predict.py can predict the result of test data.<br>
 - regression_analysis.py: regression model. <br>
 
 - review_count.py: count peer review content<br>
-sent_asp.xlsx and text_asp.xlsx: data of regression analysis.
+
+- sent_asp.xlsx and text_asp.xlsx: data of regression analysis.
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
