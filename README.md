@@ -7,9 +7,18 @@ link：https://pan.baidu.com/s/1WyQNxiRXbwDVKJkTcWUluQ <br>
 password：y3yi <br>
 # Instructions
 hedge_model file is used  to train the hedge sentence prediction model.<br>
+
 tagger is aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor)<br>
+
 (1-5)conf_asp.json is aspect count for hedge sentences.<br>
+
+conf(1-5)_hedge)word.json is hedge word count for review report.<br>
+
+new_hedge_word.tet is hedge word list.
+
 regression_analysis.py is the regression model. <br>
+
 review_count.py is used to count peer review content<br>
+
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
