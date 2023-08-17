@@ -6,7 +6,10 @@ The data and pretrained model can download by Baidu Netdisk<br>
 link：https://pan.baidu.com/s/1WyQNxiRXbwDVKJkTcWUluQ <br>
 password：y3yi <br>
 # instructions
-hedge_model file is used  to train the hedge sentence prediction model.
-
+hedge_model file is used  to train the hedge sentence prediction model.<br>
+tagger is aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor)<br>
+(1-5)conf_asp.json is aspect count for hedge sentences.<br>
+regression_analysis.py is the regression model. <br>
+review_count.py is used to count peer review content<br>
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
