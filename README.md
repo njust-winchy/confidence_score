@@ -14,6 +14,7 @@ password：y3yi <br>
 -- data_process.py: process input data.<br>
 -- load_data.py：load the training data.<br>
 -- main.py：train the model.<br>
+-- read_hedge.py：Extract hedge sentences from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.<br>
 -- model.py：model structure.<br>
 -- predict.py：predict test data.<br>
 -- util.py：data process tool.<br>
