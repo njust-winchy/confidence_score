@@ -6,9 +6,9 @@ Our work includes the followig aspects:<br>
 2.This paper investigates and analyzes the consistency between confidence scores and review content. We conducted research and analysis on consistency at the word level, sentence level, and aspect level, respectively. <br>
 3.This paper examines the impact of confidence scores on paper decisions. We conducted regression analysis with the decision outcome of papers as the dependent variable, confidence scores and aspect items as independent variables.
 # Data and model
-The data and pretrained model can download by Baidu Netdisk, the data includes preprocess data and raw data.<br>
-link：https://pan.baidu.com/s/1WyQNxiRXbwDVKJkTcWUluQ <br>
-password：y3yi <br>
+We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other data can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br>
+[1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022)
+[2] Dycke, N., Kuznetsov, I., Gurevych, I.: Nlpeer: A unified resource for the computational study of peer review. arXiv preprint arXiv:2211.06651 (2022)
 # Instructions
 - hedge_model file: train the hedge sentence prediction model.<br>
 -- data_process.py: process input data.<br>
