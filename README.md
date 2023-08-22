@@ -22,7 +22,7 @@ Hedge words can find from [3] <br>
 -- util.py：data process tool.<br>
 run the main.py can train a hedge sentence prediction model.<br>
 run the predict.py can predict the result of test data.<br>
-- tagger: Aspect annotation tool by Yuan et al (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
+- Aspect tagger: Aspect identifying tool by Yuan et al (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
 - (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
 
