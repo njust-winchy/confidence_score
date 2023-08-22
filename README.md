@@ -7,10 +7,7 @@ Our work includes the followig aspects:<br>
 3.This paper examines the impact of confidence scores on paper decisions. We conducted regression analysis with the decision outcome of papers as the dependent variable, confidence scores and aspect items as independent variables.
 # Data and model
 We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other data can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br> 
-[1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022) <br>
-[2] Dycke, N., Kuznetsov, I., Gurevych, I.: Nlpeer: A unified resource for the computational study of peer review. arXiv preprint arXiv:2211.06651 (2022) <br>
 Hedge words can find from [3] <br>
-[3] Xie, S., Mi, C.: Promotion and caution in research article abstracts: The use of positive, negative and hedge words across disciplines and rankings. Learned Publishing 36(2), 249–265 (2023)
 # Instructions
 - hedge_model file: train the hedge sentence prediction model.<br>
 -- data_process.py: process input data.<br>
@@ -22,7 +19,7 @@ Hedge words can find from [3] <br>
 -- util.py：data process tool.<br>
 run the main.py can train a hedge sentence prediction model.<br>
 run the predict.py can predict the result of test data.<br>
-- Aspect tagger: Aspect identifying tool by Yuan et al (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
+- Aspect tagger: Aspect identifying tool by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
 - (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
 
@@ -35,3 +32,7 @@ run the predict.py can predict the result of test data.<br>
 - sent_asp.xlsx and text_asp.xlsx: data of regression analysis.
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
+# Reference
+[1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022) <br>
+[2] Dycke, N., Kuznetsov, I., Gurevych, I.: Nlpeer: A unified resource for the computational study of peer review. arXiv preprint arXiv:2211.06651 (2022) <br>
+[3] Xie, S., Mi, C.: Promotion and caution in research article abstracts: The use of positive, negative and hedge words across disciplines and rankings. Learned Publishing 36(2), 249–265 (2023)
