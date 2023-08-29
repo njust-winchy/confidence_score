@@ -27,7 +27,7 @@ run the predict.py can predict the result of test data.<br>
   -- conf(1-5)_hedge)word.json: hedge word count for review report.<br>
   -- 2021(2)_****.txt: ICLR 2021 and ICLR 2022 data URL.<br>
 
-- regression_analysis.py: regression model. <br>
+- regression_analysis.py: regression model for paper decision and confidence score and aspect. <br>
 - review_count.py: process peer review content and data statistics<br>
 
 
