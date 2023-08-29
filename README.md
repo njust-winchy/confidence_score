@@ -21,15 +21,17 @@ run the main.py can train a hedge sentence prediction model.<br>
 run the predict.py can predict the result of test data.<br>
 - Aspect tagger: Aspect identifying tool by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
-- (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
+- Dataset: Aspect identifying tool by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
-- conf(1-5)_hedge)word.json: hedge word count for review report.<br>
-- 2021(2)_****.txt: ICLR 2021 and ICLR 2022 data URL.
+-- (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
+-- sent_asp.xlsx and text_asp.xlsx: data of regression analysis.<br>
+-- conf(1-5)_hedge)word.json: hedge word count for review report.<br>
+-- 2021(2)_****.txt: ICLR 2021 and ICLR 2022 data URL.<br>
+
 - regression_analysis.py: regression model. <br>
+- review_count.py: process peer review content and data statistics<br>
 
-- review_count.py: count peer review content<br>
 
-- sent_asp.xlsx and text_asp.xlsx: data of regression analysis.
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
 # Reference
