@@ -21,8 +21,7 @@ run the main.py can train a hedge sentence prediction model.<br>
 run the predict.py can predict the result of test data.<br>
 - Aspect tagger: Aspect identifying tool by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
-- Dataset: Aspect identifying tool by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
-
+- Dataset: contain used data's url and information on data statistics.<br>
 -- (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
 -- sent_asp.xlsx and text_asp.xlsx: data of regression analysis.<br>
 -- conf(1-5)_hedge)word.json: hedge word count for review report.<br>
