@@ -8,6 +8,7 @@ Our work includes the followig aspects:<br>
 # Data and model
 We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other data can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br> 
 Hedge words can find from [3] <br>
+Hedge sentence prediction model can find from hedge_model folder.<br>
 # Instructions
 - hedge_model file: train the hedge sentence prediction model.<br>
 -- data_process.py: process input data.<br>
