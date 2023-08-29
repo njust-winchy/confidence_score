@@ -30,7 +30,7 @@ run the predict.py can predict the result of test data.<br>
 - regression_analysis.py: regression model for paper decision and confidence score and aspect. <br>
 - review_count.py: process peer review content and data statistics.<br>
 - text_preprocess.py: Preprocessing crawled data.<br>
-
+- text_reptile.py, Reptile.py and process_screview.py: crawl data from openreview and save to local.<br>
 # Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
 # Reference
