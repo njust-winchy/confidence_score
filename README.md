@@ -14,13 +14,13 @@ Our work includes the followig aspects:<br>
 confidence_score                                         Root directory
 ├── Code                                                 Source code folder
 │   ├── hedge_model                                      Train the hedge sentence prediction model.
-│   │   ├── data_process.py                                  Process input data.
-│   │   ├── load_data.py.py                                  Load the training data.
-│   │   └── main.py                                          Train the model.
-│   │   └── read_hedge.py                                    Extract hedge sentences and patial hedege words from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.  
-│   │   └── model.py                                         Model structure  
-│   │   └── predict.py                                       Predict test data.  
-│   │   └── util.py                                          Data process tool.  
+│   │   ├── data_process.py                              Process input data.
+│   │   ├── load_data.py.py                              Load the training data.
+│   │   └── main.py                                      Train the model.
+│   │   └── read_hedge.py                                Extract hedge sentences and patial hedege words from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.  
+│   │   └── model.py                                     Model structure. 
+│   │   └── predict.py                                   Predict test data.  
+│   │   └── util.py                                      Data process tool.  
 │   ├── regression_analysis.py                           Regression model for paper decision and confidence score and aspect.
 │   ├── review_count.py                                  Process peer review content and data statistics. 
 │   ├── text_preprocess.py                               Preprocessing raw data.
