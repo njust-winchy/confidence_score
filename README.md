@@ -5,11 +5,11 @@ Our work includes the followig aspects:<br>
 1.We collected a large amount of data containing confidence scores and attempted to process the data through automatic recognition by identifying contradictory statements and their aspects in the comment texts. The accuracy of identifying hedge sentences can reach 0.88. <br>
 2.This paper investigates and analyzes the consistency between confidence scores and review content. We conducted research and analysis on consistency at the word level, sentence level, and aspect level, respectively. <br>
 3.This paper examines the impact of confidence scores on paper decisions. We conducted regression analysis with the decision outcome of papers as the dependent variable, confidence scores and aspect items as independent variables.
-# Data and model
+## Data and model
 We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other data can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br> 
 Hedge words can find from [3] <br>
 Hedge sentence prediction model can find from hedge_model folder.<br>
-# Instructions
+## Instructions
 - hedge_model file: train the hedge sentence prediction model.<br>
 -- data_process.py: process input data.<br>
 -- load_data.py：load the training data.<br>
@@ -32,9 +32,14 @@ run the predict.py can predict the result of test data.<br>
 - review_count.py: process peer review content and data statistics.<br>
 - text_preprocess.py: Preprocessing crawled data.<br>
 - text_reptile.py, Reptile.py and process_screview.py: crawl data from openreview and save to local.<br>
-# Acknowledgement
+## Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
-# Reference
+## Reference
 [1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022) <br>
 [2] Dycke, N., Kuznetsov, I., Gurevych, I.: Nlpeer: A unified resource for the computational study of peer review. arXiv preprint arXiv:2211.06651 (2022) <br>
 [3] Xie, S., Mi, C.: Promotion and caution in research article abstracts: The use of positive, negative and hedge words across disciplines and rankings. Learned Publishing 36(2), 249–265 (2023)
+
+## Citation
+Please cite the following paper if you use this code and dataset in your work.
+    
+>Wenqing Wu, Haixu Xi, Chengzhi Zhang\*.  Are the confidence scores of reviewers consistent with the review content? Evidence from top conference proceedings in AI. ***Scientometrics***, 2024. [[doi]]()  [[Dataset & Source Code]](https://github.com/njust-winchy/confidence_score) 
