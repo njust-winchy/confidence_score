@@ -1,7 +1,7 @@
 #  Are the confidence scores of reviewers consistent with the review content? Evidence from top conference proceedings in AI
 ## Overview
 
-**Data and code for the paper "Can the Confidence Scores of Reviewers be Consistent with the Review Content?" by Wenqing Wu, Chengzhi Zhang and Haixu Xi.** <br>
+**Data and code for the paper "Can the Confidence Scores of Reviewers be Consistent with the Review Content?" by Wenqing Wu, Chengzhi Zhang and Haixu Xi.**
 
 The purpose of this paper is to explore the consistency between evaluation reports and their confidence scores, and to investigate the impact of confidence scores on paper decision-making. We used data from ICLR 2017-2019, 2021 and 2022, as well as ACL-17, CoNLL-16, COLING-20, and ARR-22 as experimental data.<br>
 Our work includes the followig aspects:<br>
