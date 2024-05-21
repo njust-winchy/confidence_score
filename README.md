@@ -22,7 +22,7 @@ technology_development                             Root directory
 │   ├── review_count.py                            Process peer review content and data statistics. 
 │   ├── text_preprocess.py                         Preprocessing raw data.
 ├── Dataset                                        Dataset folder
-│   ├── (1-5)conf_asp.json                         Aspect count of hedge sentences with confidence score is 1-5.
+│   ├── conf(1-5)_asp.json                         Aspect count of hedge sentences with confidence score is 1-5.
 │   ├── sent_asp.xlsx                              data of regression analysis.
 │   ├── text_asp.xlsx                              data of regression analysis
 │   ├── conf(1-5)_hedge_word.json                  hedge word count for review report with confidence score is 1-5.
