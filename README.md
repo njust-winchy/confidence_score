@@ -31,8 +31,8 @@ confidence_score                                         Root directory
 │   ├── conf3_asp.json                                   Aspect count of hedge sentences with confidence score is 3.
 │   ├── conf4_asp.json                                   Aspect count of hedge sentences with confidence score is 4.
 │   ├── conf5_asp.json                                   Aspect count of hedge sentences with confidence score is 5.
-│   ├── sent_asp.xlsx                                    Data of regression analysis.
-│   ├── text_asp.xlsx                                    Data of regression analysis.
+│   ├── sent_asp.xlsx                                    Regression analysis data between confidence scores and aspects.
+│   ├── text_asp.xlsx                                    Regression analysis data between confidence scores and aspects on decision-making.
 │   ├── conf1_hedge_word.json                            Hedge word count for review report with confidence score is 1.
 │   ├── conf2_hedge_word.json                            Hedge word count for review report with confidence score is 2.
 │   ├── conf3_hedge_word.json                            Hedge word count for review report with confidence score is 3.
