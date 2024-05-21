@@ -5,9 +5,9 @@
 
 The purpose of this paper is to explore the consistency between evaluation reports and their confidence scores, and to investigate the impact of confidence scores on paper decision-making. We used data from ICLR 2017-2019, 2021 and 2022, as well as ACL-17, CoNLL-16, COLING-20, and ARR-22 as experimental data.<br>
 Our work includes the followig aspects:<br>
-    - We collected a large amount of data containing confidence scores and attempted to process the data through automatic recognition by identifying contradictory statements and their aspects in the comment texts. The accuracy of identifying hedge sentences can reach 0.88. <br>
-    - This paper investigates and analyzes the consistency between confidence scores and review content. We conducted research and analysis on consistency at the word level, sentence level, and aspect level, respectively. <br>
-    - This paper examines the impact of confidence scores on paper decisions. We conducted regression analysis with the decision outcome of papers as the dependent variable, confidence scores and aspect items as independent variables.
+  -  We collected a large amount of data containing confidence scores and attempted to process the data through automatic recognition by identifying contradictory statements and their aspects in the comment texts. The accuracy of identifying hedge sentences can reach 0.88. <br>
+  -  This paper investigates and analyzes the consistency between confidence scores and review content. We conducted research and analysis on consistency at the word level, sentence level, and aspect level, respectively. <br>
+  - This paper examines the impact of confidence scores on paper decisions. We conducted regression analysis with the decision outcome of papers as the dependent variable, confidence scores and aspect items as independent variables.
 ## Directory structure
 
 <pre>
