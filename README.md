@@ -5,33 +5,43 @@ Our work includes the followig aspects:<br>
 1.We collected a large amount of data containing confidence scores and attempted to process the data through automatic recognition by identifying contradictory statements and their aspects in the comment texts. The accuracy of identifying hedge sentences can reach 0.88. <br>
 2.This paper investigates and analyzes the consistency between confidence scores and review content. We conducted research and analysis on consistency at the word level, sentence level, and aspect level, respectively. <br>
 3.This paper examines the impact of confidence scores on paper decisions. We conducted regression analysis with the decision outcome of papers as the dependent variable, confidence scores and aspect items as independent variables.
+## Directory structure
+
+<pre>
+technology_development                             Root directory
+├── Code                                           Source code folder
+│   ├── hedge_model                                Train the hedge sentence prediction model.
+│   │   ├── data_process.py                            Process input data.
+│   │   ├── load_data.py.py                            Load the training data.
+│   │   └── main.py                                    Train the model.
+│   │   └── read_hedge.py                              Extract hedge sentences and patial hedege words from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.  
+│   │   └── model.py                                   Model structure  
+│   │   └── predict.py                                 Predict test data.  
+│   │   └── util.py                                    Data process tool.  
+│   ├── regression_analysis.py                     Regression model for paper decision and confidence score and aspect.
+│   ├── review_count.py                            Process peer review content and data statistics. 
+│   ├── text_preprocess.py                         Preprocessing raw data.
+├── Dataset                                        Dataset folder
+│   ├── (1-5)conf_asp.json                         Aspect count of hedge sentences with confidence score is 1-5.
+│   ├── sent_asp.xlsx                              data of regression analysis.
+│   ├── text_asp.xlsx                              data of regression analysis
+│   ├── conf(1-5)_hedge_word.json                  hedge word count for review report with confidence score is 1-5.
+│   ├── 2021(2)_****.txt                           ICLR 2021 and ICLR 2022 data URL.
+└── README.md
+</pre>
+
 ## Data and model
 We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other data can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br> 
 Hedge words can find from [3] <br>
 Hedge sentence prediction model can find from hedge_model folder.<br>
+
 ## Instructions
-- hedge_model file: train the hedge sentence prediction model.<br>
--- data_process.py: process input data.<br>
--- load_data.py：load the training data.<br>
--- main.py：train the model.<br>
--- read_hedge.py：Extract hedge sentences and patial hedege words from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.<br>
--- model.py：model structure.<br>
--- predict.py：predict test data.<br>
--- util.py：data process tool.<br>
-run the main.py can train a hedge sentence prediction model.<br>
-run the predict.py can predict the result of test data.<br>
-- tagger: Aspect tagger for peer review. Aspect identifying tool proposed by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
-- Dataset: contain used data's url and information on data statistics.<br>
-  -- (1-5)conf_asp.json: Aspect count for hedge sentences.<br>
-  -- sent_asp.xlsx and text_asp.xlsx: data of regression analysis.<br>
-  -- conf(1-5)_hedge)word.json: hedge word count for review report.<br>
-  -- 2021(2)_****.txt: ICLR 2021 and ICLR 2022 data URL.<br>
+run the Code/hedge_model/main.py can train a hedge sentence prediction model.<br>
+run the Code/hedge_model/predict.py can predict the result of test data.<br>
+Code/tagger: Aspect tagger for peer review. Aspect identifying tool proposed by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
-- regression_analysis.py: regression model for paper decision and confidence score and aspect. <br>
-- review_count.py: process peer review content and data statistics.<br>
-- text_preprocess.py: Preprocessing crawled data.<br>
-- text_reptile.py, Reptile.py and process_screview.py: crawl data from openreview and save to local.<br>
+
 ## Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
 ## Reference
