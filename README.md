@@ -11,7 +11,7 @@ Our work includes the followig aspects:<br>
 ## Directory structure
 
 <pre>
-technology_development                             Root directory
+confidence_score                                   Root directory
 ├── Code                                           Source code folder
 │   ├── hedge_model                                Train the hedge sentence prediction model.
 │   │   ├── data_process.py                            Process input data.
