@@ -49,9 +49,9 @@ technology_development                             Root directory
 ## Acknowledgement
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication.
 ## Reference
-[1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022) <br>
-[2] Dycke, N., Kuznetsov, I., Gurevych, I.: Nlpeer: A unified resource for the computational study of peer review. arXiv preprint arXiv:2211.06651 (2022) <br>
-[3] Xie, S., Mi, C.: Promotion and caution in research article abstracts: The use of positive, negative and hedge words across disciplines and rankings. Learned Publishing 36(2), 249–265 (2023)
+[1] Yuan, W., Liu, P., Neubig, G. (2022). Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212  <br>
+[2] Dycke, N., Kuznetsov, I., Gurevych, I. (2022). Nlpeer: A unified resource for the computational study of peer review. arXiv preprint arXiv:2211.06651 <br>
+[3] Xie, S., Mi, C. (2023). Promotion and caution in research article abstracts: The use of positive, negative and hedge words across disciplines and rankings. Learned Publishing 36(2), 249–265.
 
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
