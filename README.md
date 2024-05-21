@@ -11,26 +11,42 @@ Our work includes the followig aspects:<br>
 ## Directory structure
 
 <pre>
-confidence_score                                   Root directory
-├── Code                                           Source code folder
-│   ├── hedge_model                                Train the hedge sentence prediction model.
-│   │   ├── data_process.py                            Process input data.
-│   │   ├── load_data.py.py                            Load the training data.
-│   │   └── main.py                                    Train the model.
-│   │   └── read_hedge.py                              Extract hedge sentences and patial hedege words from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.  
-│   │   └── model.py                                   Model structure  
-│   │   └── predict.py                                 Predict test data.  
-│   │   └── util.py                                    Data process tool.  
-│   ├── regression_analysis.py                     Regression model for paper decision and confidence score and aspect.
-│   ├── review_count.py                            Process peer review content and data statistics. 
-│   ├── text_preprocess.py                         Preprocessing raw data.
-│   ├── requirement.txt                            Dependency python packages required to run code.
-├── Dataset                                        Dataset folder
-│   ├── conf(1-5)_asp.json                         Aspect count of hedge sentences with confidence score is 1-5.
-│   ├── sent_asp.xlsx                              data of regression analysis.
-│   ├── text_asp.xlsx                              data of regression analysis
-│   ├── conf(1-5)_hedge_word.json                  hedge word count for review report with confidence score is 1-5.
-│   ├── 2021(2)_****.txt                           ICLR 2021 and ICLR 2022 data URL.
+confidence_score                                         Root directory
+├── Code                                                 Source code folder
+│   ├── hedge_model                                      Train the hedge sentence prediction model.
+│   │   ├── data_process.py                                  Process input data.
+│   │   ├── load_data.py.py                                  Load the training data.
+│   │   └── main.py                                          Train the model.
+│   │   └── read_hedge.py                                    Extract hedge sentences and patial hedege words from the HedgePeer dataset (https://github.com/Tirthankar-Ghosal/HedgePeer-Dataset) to form training and testing sets.  
+│   │   └── model.py                                         Model structure  
+│   │   └── predict.py                                       Predict test data.  
+│   │   └── util.py                                          Data process tool.  
+│   ├── regression_analysis.py                           Regression model for paper decision and confidence score and aspect.
+│   ├── review_count.py                                  Process peer review content and data statistics. 
+│   ├── text_preprocess.py                               Preprocessing raw data.
+│   ├── requirement.txt                                  Dependency python packages required to run code.
+├── Data                                                 Dataset folder
+│   ├── conf1_asp.json                                   Aspect count of hedge sentences with confidence score is 1.
+│   ├── conf2_asp.json                                   Aspect count of hedge sentences with confidence score is 2.
+│   ├── conf3_asp.json                                   Aspect count of hedge sentences with confidence score is 3.
+│   ├── conf4_asp.json                                   Aspect count of hedge sentences with confidence score is 4.
+│   ├── conf5_asp.json                                   Aspect count of hedge sentences with confidence score is 5.
+│   ├── sent_asp.xlsx                                    Data of regression analysis.
+│   ├── text_asp.xlsx                                    Data of regression analysis
+│   ├── conf1_hedge_word.json                            Hedge word count for review report with confidence score is 1.
+│   ├── conf2_hedge_word.json                            Hedge word count for review report with confidence score is 2.
+│   ├── conf3_hedge_word.json                            Hedge word count for review report with confidence score is 3.
+│   ├── conf4_hedge_word.json                            Hedge word count for review report with confidence score is 4.
+│   ├── conf5_hedge_word.json                            Hedge word count for review report with confidence score is 5.
+│   ├── 2021_oral-presentations.txt                      ICLR 2021 oral presentations data URL.
+│   ├── 2021_poster-presentations.txt                    ICLR 2021 poster presentations data URL.  
+│   ├── 2021_spotlight-presentations.txt                 ICLR 2021 spotlight presentations data URL.
+│   ├── 2021_withdrawn-rejected-submissions.txt          ICLR 2021 withdrawn-rejected-submissions data URL.
+│   ├── 2022_oral-submissions.txt                        ICLR 2022 oral submissions data URL.
+│   ├── 2022_poster-submissions.txt                      ICLR 2022 poster submissions data URL.
+│   ├── 2022_spotlight-submissions.txt                   ICLR 2022 spotlight submissions data URL.
+│   ├── 2022_submitted-submissions.txt                   ICLR 2022 submitted submissions data URL.
+│   ├── 2022_desk-rejected-withdrawn-submissions.txt     ICLR 2022 desk rejected withdrawn submissions data URL.
 └── README.md
 </pre>
 
