@@ -32,15 +32,15 @@ technology_development                             Root directory
 </pre>
 
 ## Data and model
-We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other data can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br> 
-Hedge words can find from [3] <br>
-Hedge sentence prediction model can find from hedge_model folder.<br>
+We have provided URLs for downloading and viewing the data for ICLR 2021 and ICLR 2022. Other datas can obtain from https://github.com/neulab/ReviewAdvisor [1] and https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/3618 [2] <br> 
+Hedge words can find from Citation [3] <br>
+Hedge sentence prediction model can find from Code/hedge_model folder.<br>
 
 ## Instructions
 
 Run the Code/hedge_model/main.py can train a hedge sentence prediction model.<br>
 Run the Code/hedge_model/predict.py can predict the result of test data.<br>
-Code/tagger: Aspect tagger for peer review. Aspect identifying tool proposed by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
+Tagger: Aspect tagger tool for peer review. Aspect identifying tool proposed by Yuan et al [1] (https://github.com/neulab/ReviewAdvisor). Specific details can be checked at previous link.<br>
 
 
 ## Acknowledgement
