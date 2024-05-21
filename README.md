@@ -24,7 +24,7 @@ confidence_score                                   Root directory
 │   ├── regression_analysis.py                     Regression model for paper decision and confidence score and aspect.
 │   ├── review_count.py                            Process peer review content and data statistics. 
 │   ├── text_preprocess.py                         Preprocessing raw data.
-│   ├── requirement.txt                           Dependency python packages required to run code.
+│   ├── requirement.txt                            Dependency python packages required to run code.
 ├── Dataset                                        Dataset folder
 │   ├── conf(1-5)_asp.json                         Aspect count of hedge sentences with confidence score is 1-5.
 │   ├── sent_asp.xlsx                              data of regression analysis.
