@@ -72,4 +72,4 @@ We thank the openreview.net team for the commitment to promoting transparency an
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
     
->Wenqing Wu, Haixu Xi, Chengzhi Zhang\*.  Are the confidence scores of reviewers consistent with the review content? Evidence from top conference proceedings in AI. ***Scientometrics***, 2024, 129(7): 4109–4135. [[doi]](https://doi.org/10.1007/s11192-024-05070-8)  [[Dataset & Source Code]](https://github.com/njust-winchy/confidence_score) 
+>Wenqing Wu, Haixu Xi, Chengzhi Zhang\*.  Are the confidence scores of reviewers consistent with the review content? Evidence from top conference proceedings in AI. ***Scientometrics***, 2024, 129(7): 4109–4135. [[doi]](https://doi.org/10.1007/s11192-024-05070-8)  [[arXiv]](https://arxiv.org/abs/2505.15031)  [[Dataset & Source Code]](https://github.com/njust-winchy/confidence_score) 
